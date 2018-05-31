@@ -20,4 +20,3 @@ https.createServer(httpsOptions, app)
   .listen(port, function () {
     console.log(`Serving the ${directoryToServe}/ directory at https://localhost:${port}`)
   })
-  
